@@ -1,0 +1,9 @@
+---
+mysql_root_password: minhasenha
+mysql_databases:
+  - name: lucianAbc
+mysql_users:
+  - name: lucianAbc
+    host: "%"
+    password: lucianAbc
+    priv: "lucianAbc.*:ALL,GRANT"

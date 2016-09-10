@@ -1,0 +1,7 @@
+- hosts: munich.in2web.com.br
+  roles:
+    - { role: geerlingguy.mysql }
+
+  vars_files:
+    - mysql.yml
+    - joomlatools.yml
