@@ -1,0 +1,4 @@
+- name: Testando cópia de arquivos
+  hosts: munich.in2web.com.br
+  tasks:
+  - copy: src="/var/www/luciana.txt" dest=/var/www/teste.txt
