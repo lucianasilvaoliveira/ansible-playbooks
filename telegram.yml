@@ -1,0 +1,4 @@
+#send a message to chat in playbook
+- telegram:  token=munichbot:215267873:AAFv5wTp8nqEmdkRPjW5YRSGEpgWOqdGm2I
+    chat_id=lucianasilvaoliveira
+    msg="Ansible task finished"
