@@ -1,0 +1,6 @@
+- name: Dummy ansible playbook
+  hosts: localhost
+  tasks:
+    - name: Dummy task
+      debug:
+        msg: "Hello World"
