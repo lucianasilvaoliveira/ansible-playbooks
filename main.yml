@@ -1,0 +1,5 @@
+---
+-  hosts: localhost
+   tasks:
+     - name: Copiando de um arquivo existente
+     copy: src="/var/www/luciana.txt" dest=/var/www/teste.txt
